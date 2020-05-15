@@ -229,9 +229,5 @@ mainn("mainn", {
 requestAnimationFrame();
  cancelRequestAnimFrame(pJS.fn.checkAnimFrame);
 /* test heremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
- var area = pJS.canvas.el.width * pJS.canvas.el.height / 1000;
-      if(pJS.tmp.retina){
-        area = area/(pJS.canvas.pxratio*2);
-      }
-
+var nb_particles = area * pJS.particles.number.value / pJS.particles.number.density.value_area;
 
