@@ -228,7 +228,11 @@ mainn("mainn", {
 
 requestAnimationFrame();
  cancelRequestAnimFrame(pJS.fn.checkAnimFrame);
-/* test here */
-    if(dist_mouse <= pJS.interactivity.modes.grab.distance){
+/* test heremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+    if(pJS.interactivity.detect_on == 'window'){
+      pJS.interactivity.el = window;
+    }else{
+      pJS.interactivity.el = pJS.canvas.el;
+    }
 
-        var opacity_line = pJS.interactivity.modes.grab.line_linked.opacity - (dist_mouse / (1/pJS.interactivity.modes.grab.line_linked.opacity)) / pJS.interactivity.modes.grab.distance;
+
