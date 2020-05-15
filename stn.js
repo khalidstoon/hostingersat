@@ -1,6 +1,6 @@
 
 
-particlesJS("test", {
+particlesJS("site-footer", {
     "particles": {
       "number": {
         "value": 80,
