@@ -227,3 +227,11 @@ mainn("mainn", {
 });
 
 requestAnimationFrame();
+ cancelRequestAnimFrame(pJS.fn.checkAnimFrame);
+/* test here */
+    cancelRequestAnimFrame(pJS.fn.drawAnimFrame);
+    pJS.tmp.source_svg = undefined;
+    pJS.tmp.img_obj = undefined;
+    pJS.tmp.count_svg = 0;
+    pJS.fn.particlesEmpty();
+    pJS.fn.canvasClear();
