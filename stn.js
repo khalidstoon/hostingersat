@@ -229,5 +229,27 @@ mainn("mainn", {
 requestAnimationFrame();
  cancelRequestAnimFrame(pJS.fn.checkAnimFrame);
 /* test heremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
-var nb_particles = area * pJS.particles.number.value / pJS.particles.number.density.value_area;
+ var svg = new Blob([coloredSvgXml], {type: 'image/svg+xml;charset=utf-8'}),
+        DOMURL = window.URL || window.webkitURL || window,
+        url = DOMURL.createObjectURL(svg);
+
+    /* create particle img obj */
+    var img = new Image();
+    img.addEventListener('load', function(){
+      p.img.obj = img;
+      p.img.loaded = true;
+      DOMURL.revokeObjectURL(url);
+      pJS.tmp.count_svg++;
+    });
+    img.src = url;
+
+  };
+
+
+  pJS.fn.vendors.destroypJS = function(){
+    cancelAnimationFrame(pJS.fn.drawAnimFrame);
+    canvas_el.remove();
+    pJSDom = null;
+  };
+
 
