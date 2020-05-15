@@ -44,17 +44,19 @@ margin-left: 45% !important ;
 
 
 
-#site-header, #site-header-inner {
-    background-color: #007ab76e;
-    position: absolute;
-}
 
 
-* {
+
+#header {
    
     position: absolute;
 }
 
+#site-header
+{
+   
+    position: absolute;
+}
 
 
 
