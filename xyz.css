@@ -27,16 +27,7 @@ background-size: 100% !important ;
   }
  
 /* mn hna ghaibda sda3*/
-#header {
-    font-size: 11px;
-    text-shadow: 0 1px 0 #282828;
-    background: url(https://www.hostingersat.com/images/bg-top-bottom.png) repeat;
-    padding: 10px 0 5px 20px;
-    border-radius: 10px 10px 0;
-    -webkit-border-radius: 10px 10px 0;
-    -moz-border-radius: 10px 10px 0;
-    position: absolute;
-}
+
 #site-header, #site-header-inner {
     background: rgba(163, 163, 4, 0.836);
     position: absolute;
