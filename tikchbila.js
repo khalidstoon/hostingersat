@@ -1,4 +1,4 @@
-<script>
+
   /* -----------------------------------------------
 /* Author : Vincent Garreau  - vincentgarreau.com
 /* MIT license: https://opensource.org/licenses/MIT
@@ -1220,4 +1220,3 @@
     };
     xhr.send();
   };
-</script>
