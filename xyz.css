@@ -31,33 +31,7 @@ background-size: 100% !important ;
 
   #vert-move{-webkit-animation:mover 1s infinite alternate;animation:mover 1s infinite alternate}@-webkit-keyframes mover{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}@keyframes mover{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}
 /*hadi dial opacity zwina l div */
-header {
 
-
-background: linear-gradient(to right,rgba(7,98,114,.3) 0%,rgba(3,237,208,.3) 99%) !important ;
-border-radius: 10px !important ;
-    border: 1px solid #014242 !important ;
-    transition: .4s !important ;
-    height: 150px !important ;
-    width: 1280px !important ;
-    margin: auto !important ;
-    margin-top: 20px !important ;
-    margin-bottom: 20px !important ;
-}
-
-main {
-background: rgba(7, 98, 114, 0.212) !important ;
-  transition: .4s !important ;
-  border: 1px solid #014242 !important ;
-
-  height: 800px !important ;
-  width: 1280px !important ;
-  margin: auto !important ;
-  
-  border-radius: 10px !important ;
-
-  
-    }
 
 .center{
 margin-left: 45% !important ;
