@@ -2,28 +2,28 @@
 
 body  {
     
-  background-image: url('https://1.bp.blogspot.com/-MEKwgnvkfUQ/Xr5e3f6SNOI/AAAAAAAAFlI/ncTw3Gi6N8QcjOSshG4MOCaKfiu-laRGgCLcBGAsYHQ/s320/bg_black.jpg');
-background-size: 100%;
+  background-image: url('https://1.bp.blogspot.com/-MEKwgnvkfUQ/Xr5e3f6SNOI/AAAAAAAAFlI/ncTw3Gi6N8QcjOSshG4MOCaKfiu-laRGgCLcBGAsYHQ/s320/bg_black.jpg') !important ;
+background-size: 100% !important ;
 
-  background-attachment: fixed;
+  background-attachment: fixed !important ;
 
 
-    margin: 0;
-    font: normal 75% Arial, Helvetica, sans-serif;
+    margin: 0 !important ;
+    font: normal 75% Arial, Helvetica, sans-serif !important ;
   }
 
   
   canvas  {
-    display: block;
-    vertical-align: bottom;
+    display: block !important ;
+    vertical-align: bottom !important ;
   }
   /* ---- particles.js container ---- */
   
   #site-content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #bdca0b00;
+    position: absolute !important ;
+    width: 100% !important ;
+    height: 100% !important ;
+    background-color: #bdca0b00 !important ;
   }
  
   
@@ -34,33 +34,33 @@ background-size: 100%;
 header {
 
 
-background: linear-gradient(to right,rgba(7,98,114,.3) 0%,rgba(3,237,208,.3) 99%);
-border-radius: 10px;
-    border: 1px solid #014242;
-    transition: .4s;
-    height: 150px;
-    width: 1280px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+background: linear-gradient(to right,rgba(7,98,114,.3) 0%,rgba(3,237,208,.3) 99%) !important ;
+border-radius: 10px !important ;
+    border: 1px solid #014242 !important ;
+    transition: .4s !important ;
+    height: 150px !important ;
+    width: 1280px !important ;
+    margin: auto !important ;
+    margin-top: 20px !important ;
+    margin-bottom: 20px !important ;
 }
 
 main {
-background: rgba(7, 98, 114, 0.212);
-  transition: .4s;
-  border: 1px solid #014242;
+background: rgba(7, 98, 114, 0.212) !important ;
+  transition: .4s !important ;
+  border: 1px solid #014242 !important ;
 
-  height: 800px;
-  width: 1280px;
-  margin: auto;
+  height: 800px !important ;
+  width: 1280px !important ;
+  margin: auto !important ;
   
-  border-radius: 10px;
+  border-radius: 10px !important ;
 
   
     }
 
 .center{
-margin-left: 45%;
+margin-left: 45% !important ;
 
 }
   
