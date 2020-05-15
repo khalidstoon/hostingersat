@@ -26,6 +26,28 @@ background-size: 100% !important ;
     background-color: #bdca0b00 !important ;
   }
  
+/* mn hna ghaibda sda3*/
+#header {
+    font-size: 11px;
+    text-shadow: 0 1px 0 #282828;
+    background: url(../images/bg-top-bottom.png) repeat;
+    padding: 10px 0 5px 20px;
+    border-radius: 10px 10px 0;
+    -webkit-border-radius: 10px 10px 0;
+    -moz-border-radius: 10px 10px 0;
+    position: absolute;
+}
+#site-header, #site-header-inner {
+    background-color: #007bb7;
+    position: absolute;
+}
+
+
+
+
+
+
+
   
   /* hadi dial bombaje*/
 
