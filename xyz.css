@@ -48,14 +48,13 @@ margin-left: 45% !important ;
 
 
 
-#site-content
-{
-   
-    position: absolute;
-}
+#site-wrapper , #header , #header_image ,
+#aaa , #block , #header_text , #phplive_btn_0 ,
+#regions , #site-header , #main-menu-wrapper , #main-menu , #the-menu , #slider-wrapper , #video , #cloud-hosting , #shared-hosting , #semi-hosting , #vps-hosting , #video-type2 , #version2 , #logo-icons , #second-row 
 
-#site-footer{
-     position: absolute;
-    
-}
 
+{  
+
+
+position: absolute;
+ }
