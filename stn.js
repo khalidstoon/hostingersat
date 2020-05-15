@@ -229,10 +229,9 @@ mainn("mainn", {
 requestAnimationFrame();
  cancelRequestAnimFrame(pJS.fn.checkAnimFrame);
 /* test heremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
-    if(pJS.interactivity.detect_on == 'window'){
-      pJS.interactivity.el = window;
-    }else{
-      pJS.interactivity.el = pJS.canvas.el;
-    }
+ var area = pJS.canvas.el.width * pJS.canvas.el.height / 1000;
+      if(pJS.tmp.retina){
+        area = area/(pJS.canvas.pxratio*2);
+      }
 
 
