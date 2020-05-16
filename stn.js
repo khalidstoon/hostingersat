@@ -1,6 +1,6 @@
 
 
-particlesJS("test", {
+particlesJS("main-content", {
     "particles": {
       "number": {
         "value": 80,
@@ -113,7 +113,7 @@ particlesJS("test", {
   
   requestAnimationFrame();
   
-/* hadi test dial main*/   
+/* hadi dial main*/   
 
 mainn("mainn", {
   "particles": {
