@@ -43,18 +43,16 @@ margin-left: 45% !important ;
 /* mn hna ghaibda sda3*/
 
 
-
-
-
-
-
-#site-wrapper , #header , #header_image ,
-#aaa , #block , #header_text , #phplive_btn_0 ,
-#regions , #site-header , #main-menu-wrapper , #main-menu , #the-menu , #slider-wrapper , #video , #cloud-hosting , #shared-hosting , #semi-hosting , #vps-hosting , #video-type2 , #version2 , #logo-icons , #second-row 
-
-
+#site-wrapper , #header , #header_image ,#aaa , #block , #header_text , #phplive_btn_0 ,
+#regions , #site-header , #main-menu-wrapper , #main-menu , #the-menu , #slider-wrapper , #video , #cloud-hosting , #shared-hosting , #semi-hosting , #vps-hosting , #video-type2 , #version2 , #logo-icons , #second-row , #video , #site-content , #shared-renewal-message , #price_1_GBP , #price_1_vat_GBP , #price_1_EUR , #price_1_vat_EUR , #price_1_USD , #price_1_vat_USD , #price_2_GBP , #price_2_vat_GBP , #price_2_EUR , #price_2_vat_EUR , #price_2_USD 
+, #price_2_vat_USD , #price_3_GBP , #price_3_vat_GBP , #price_3_EUR , #price_3_vat_EUR , #price_3_USD , #price_3_vat_USD , #price_4_USD , #price_4_vat_USD , #price_4_GBP , #price_4_vat_GBP , #price_4_EUR , #price_4_vat_EUR , #price_5_USD , #price_5_vat_USD , #price_5_GBP , #price_5_vat_GBP , #price_5_EUR , #price_5_vat_EUR , #price_6_USD , #price_6_vat_USD , #price_6_GBP , #price_6_vat_GBP , #price_6_EUR , #price_6_vat_EUR , #price_7_USD , #price_7_vat_USD , #price_7_GBP , #price_7_vat_GBP , #price_7_EUR , #price_7_vat_EUR , #price_8_USD , #price_8_vat_USD , #price_8_GBP , #price_8_EUR , #price_8_vat_EUR , #price_9_USD , #price_9_vat_USD , #price_9_GBP , #price_9_vat_GBP , #price_9_EUR , #price_9_vat_EUR , #inline , #html , #site-footer , #footer_chat_link , #vat_included_yes , #vat_included_yes , #price_10_GBP , #price_10_vat_GBP , #price_10_EUR , #price_10_vat_EUR , #price_10_USD , #price_10_vat_USD , #price_11_GBP , #price_11_vat_GBP , #price_11_EUR , #price_11_vat_EUR , #price_11_USD , #price_11_vat_USD , #cookieNotice , #hide_cookie_notice_link , #footer_text
+, #footer_image
 {  
 
 
 position: absolute;
  }
+
+
+
+
