@@ -19,7 +19,7 @@ background-size: 100% !important ;
   }
   /* ---- particles.js container ---- */
   
-  #test {
+  #main-content {
     position: absolute !important ;
     width: 100% !important ;
     height: 100% !important ;
