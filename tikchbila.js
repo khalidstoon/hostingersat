@@ -1173,11 +1173,11 @@
     /* no string id? so it's object params, and set the id with default id */
     if (typeof(tag_id) != 'string') {
       params = tag_id;
-      tag_id = 'main-content';
+      tag_id = 'test';
     }
     /* no id? set the id to default id */
     if (!tag_id) {
-      tag_id = 'main-content';
+      tag_id = 'test';
     }
     /* pJS elements */
     var pJS_tag = document.getElementById(tag_id),
